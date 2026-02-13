@@ -224,12 +224,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 📝 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 🙏 Acknowledgments
 
 - Built with [Kwala Network](https://kwala.network)
@@ -242,8 +236,8 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 | Resource | Link |
 |----------|------|
-| Kwala Documentation | [docs.kwala.network](https://docs.kwala.network) |
-| Kwala Use Case Guide | [Kwala Guides](https://kwala.network/guides) |
+| Kwala Documentation | [kwala.network/docs](https://kwala.network/docs) |
+| Kwala Use Case Guide | [Oracle Price Alert Notifications](https://kwala.network/docs/use-cases/oracle-price-alert-notifications) |
 | Telegram Bot API | [core.telegram.org/bots](https://core.telegram.org/bots/api) |
 
 ---
@@ -251,7 +245,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ## 💬 Support
 
 - **Issues?** [Open an issue](https://github.com/kwala-net/token-price-alerts/issues) on GitHub
-- **Docs** — Check [Kwala Documentation](https://docs.kwala.network)
+- **Docs** — Check [Kwala Documentation](https://kwala.network/docs)
 - **Community** — Join the Kwala community
 
 ---
