@@ -1,0 +1,38 @@
+Name: sol_pricedrop1
+Trigger:
+  TriggerSourceContract: 0xD31a59c85aE9D8edEFeC411D448f90841571b89c
+  TriggerChainID: 1
+  TriggerEventName: NA
+  TriggerEventFilter: NA
+  TriggerSourceContractABI: NA
+  TriggerPrice: 195.0
+  RecurringSourceContract: 0xD31a59c85aE9D8edEFeC411D448f90841571b89c
+  RecurringChainID: 1
+  RecurringEventName: NA
+  RecurringEventFilter: NA
+  RecurringSourceContractABI: NA
+  RecurringPrice: 195.0
+  RepeatEvery: oracle_price
+  ExecuteAfter: oracle_price
+  ExpiresIn: 1758618000
+  Meta: NA
+  ActionStatusNotificationPOSTURL:
+  ActionStatusNotificationAPIKey: NA
+Actions:
+  - Name: telegram_notifier1
+    Type: post
+    APIEndpoint: https://api.telegram.org/<bot token>/sendMessage
+    APIPayload:
+      chat_id: <chat id>,
+      text: "Sol price has dropped to $195.0"
+    TargetContract: NA
+    TargetFunction: NA
+    TargetParams:
+      NA
+    ChainID: NA
+    EncodedABI: NA
+    Bytecode: NA
+    Metadata: NA
+    RetriesUntilSuccess: 5
+Execution:
+  Mode: sequential
